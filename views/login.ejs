@@ -1,0 +1,15 @@
+<%- include('./layout/head.ejs',{title: 'Cube Game'})%>
+<form class='' action = '/auth/login' method='post'>
+	<div class=''>
+		<label for='name_field'>Login:</label>
+		<input type='text' name='name' id='name_field'>
+	</div>
+	<div class=''>
+		<label for='pass_field'>Password:</label>
+		<input type='password' name='pass' id='pass_field'>
+	</div>
+	<div class=''>		
+		<input type='submit' value='Login'>
+	</div>
+</form>
+<%- include('./layout/foot.ejs')%> 
